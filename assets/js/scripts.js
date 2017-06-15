@@ -141,8 +141,6 @@
 		// just set some content and react to language changes
 		// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
 		function updateContent() {
-		  document.getElementById('english').innerHTML = i18next.t('english');
-		  document.getElementById('spanish').innerHTML = i18next.t('spanish');
 		  		  
 		}
 		

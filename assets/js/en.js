@@ -1,4 +1,9 @@
 {
     "english": "english",
-	"spanish": "spanish"
+	"spanish": "spanish",
+	"Home" :"Home"
+	"Services": "Services"
+	"About": "About"
+	"Team": "Team"
+	"Contact": "Contact"
 }

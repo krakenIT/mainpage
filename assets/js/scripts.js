@@ -146,6 +146,12 @@
 		});
 			$('.titletranslate').each(function(i, obj) {
     			this.title = i18next.t(this.id);
+    				});
+    			$('.placeholdertranslate').each(function(i, obj) {
+    			this.placeholder = i18next.t(this.id);
+    			$('.valuetranslate').each(function(i, obj) {
+    			this.value = i18next.t(this.id);
+    				});
 		});
 		}
 		

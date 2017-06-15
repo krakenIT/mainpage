@@ -1,8 +1,3 @@
-/*
-Author       : Theme_ocean.
-Template Name: Accede - Consultancy HTML5 Template
-Version      : 1.0
-*/
 
 (function($) {
 	'use strict';
@@ -120,7 +115,44 @@ Version      : 1.0
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);	
 	   /*END CONTACT MAP JS*/
+			var userLang = navigator.language || navigator.userLanguage; 
+			var lng = 'en';
+			if(userLang.includes('es'))
+				lng = 'es';
+				
+		i18next
+		  .use(i18nextXHRBackend)
+		  .init({
+			fallbackLng: 'en',
+			lng:lng,
+			debug: true,
+			 ns: ['special', 'common'],
+			defaultNS: 'special',
+			backend: {
+			  loadPath: 'assets/js/{{lng}}.js',
+			  crossDomain: true
+			}
+		  }, function(err, t) {
+			// init set content
+			updateContent();
+		  });
 
+
+		// just set some content and react to language changes
+		// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
+		function updateContent() {
+		  document.getElementById('english').innerHTML = i18next.t('english');
+		  document.getElementById('spanish').innerHTML = i18next.t('spanish');
+		  		  
+		}
+		
+		function changeLng(lng) {
+		  i18next.changeLanguage(lng);
+		}
+
+		i18next.on('languageChanged', () => {
+		  updateContent();
+		});
 	}); 	
 			
 				

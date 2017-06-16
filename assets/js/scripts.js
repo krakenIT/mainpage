@@ -138,6 +138,8 @@
 		  });
 
 
+
+
 		// just set some content and react to language changes
 		// could be optimized using vue-i18next, jquery-i18next, react-i18next, ...
 		function updateContent() {

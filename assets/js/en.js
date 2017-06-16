@@ -45,6 +45,7 @@
 	"email":"Email",
 	"description":"Your Message",
 	"submitButton":"Submit Your Message!",
-	"title":"Kraken-IT Informatic solutions"
+	"title":"Kraken-IT Informatic solutions",
+	"subject":"Subject"
 
 }

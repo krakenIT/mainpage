@@ -45,6 +45,7 @@
 	"email":"Mail",
 	"description":"Tu mensaje",
 	"submitButton":"Mandá tu mensaje!",
-	"title":"Kraken-IT soluciones informáticas a medida"
+	"title":"Kraken-IT soluciones informáticas a medida",
+	"subject":"Asunto"
 
 }

@@ -5,7 +5,7 @@
 	"Services": "Services",
 	"About": "About us",
 	"Team": "Team",
-	"Contact": "Contact",
+	"Contact": "Contact Us",
 	"buildnewideas":"We build new ideas",
 	"buildnewideasdesc": "Highly innovative solutions made to satisfy the requirements of each client",
 	"buildnewideas2": "Make project true",

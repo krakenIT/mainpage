@@ -1734,6 +1734,18 @@ transition: all 0.2s ease 0s;
         text-align: center;
     }
 }
+
+
+
+.navbar-flag { padding: 0px }
+.navbar-flag img {
+    height: 35px;
+    margin-left: 10px;
+}
+@media only screen and (max-width:768px) { 
+.navbar-flag img {width: 130px;}
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * 18.END FOOTER DESIGN

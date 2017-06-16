@@ -34,7 +34,7 @@
 	"02cons":"<span>02</span>Eficiencia",
 	"02consdesc":"Todos nuestros trabajos cuentan con soluciones integrales conseguidas de las formas más prolijas e inteligenes.",
 	"03cons":"<span>03</span>Compromiso",
-	"03consdesc":"Le damos un gran enfasis a la entrega y tiempos propuestos por el cliente y es una de nuestras mayores prioridades.",
+	"03consdesc":"Le damos un gran enfasis a los entregables y tiempos acordados con el cliente.",
 	"experts":"Nuestro equipo",
 	"expertsdesc":"Nuestro equipo está conformado por jóvenes profesionales especializados en diversas áreas",
 	"ayelen":"Desarrolladora con seis años de experiencia, recibida de ingeniera en sistemas en la Universidad de Buenos Aires.",

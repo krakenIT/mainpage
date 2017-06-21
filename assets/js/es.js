@@ -6,7 +6,7 @@
 	"About": "Acerca",
 	"Team": "Equipo",
 	"Contact": "Contactanos",
-	"buildnewideas": "Contruimos nuevas ideas",
+	"buildnewideas": "Construimos nuevas ideas",
 	"buildnewideasdesc": "Soluciones originales a medida adecuadas a las necesidades de cada cliente",
 	"buildnewideas2": "Concretamos proyectos",
 	"buildnewideasdesc2": "Realización de toda idea buscada por el cliente",
@@ -45,7 +45,7 @@
 	"email":"Mail",
 	"description":"Tu mensaje",
 	"submitButton":"Mandá tu mensaje!",
-	"title":"Kraken-IT soluciones informáticas a medida",
+	"title":"Kraken-IT Soluciones informáticas a medida",
 	"subject":"Asunto"
 
 }
